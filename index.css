@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube2d{
+    border: 10px solid;
+    height: 30vw;
+}
+
+.cell{
+    border: 1px solid;
+    width: 10vw;
+}
+
+.cr1c1{
+    background-color: whitesmoke;
+}
