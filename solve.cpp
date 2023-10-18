@@ -213,6 +213,13 @@ void connectpieces()
     cubearr[1][1][2] = new_centre(&yellow);
 
     cubearr[0][0][0] = new_corner(&findcorner(0,0,0));
+    cubearr[2][0][0] = new_corner(&findcorner(2,0,0));
+    cubearr[0][2][0] = new_corner(&findcorner(0,2,0));
+    cubearr[2][2][0] = new_corner(&findcorner(2,2,0));
+    cubearr[0][0][2] = new_corner(&findcorner(0,0,2));
+    cubearr[2][0][2] = new_corner(&findcorner(2,0,2));
+    cubearr[0][2][2] = new_corner(&findcorner(0,2,2));
+    cubearr[2][2][2] = new_corner(&findcorner(2,2,2));
 }
 corner& findcorner(int x,int y,int z)
 {
