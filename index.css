@@ -5,6 +5,7 @@ body {
 }
 
 .cube2d{
+    position: absolute;
     border: 10px solid;
     height: 30vw;
 }
@@ -15,5 +16,37 @@ body {
 }
 
 .cr1c1{
-    background-color: whitesmoke;
+    background-color: darkred;
+}
+
+.colorpicker{
+    position: relative;
+    background-color: brown;
+    height: 20vw;
+    width: 20vw;
+}
+.cptopbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.colors{
+    display: flex;
+    flex-direction: column;
+}
+.colorsrow1{
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.colorsrow2{
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

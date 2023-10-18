@@ -8,7 +8,7 @@
 <body>
     <table class="cube2d">
         <tr class="cr1 roww">
-            <td class="cr1c1 cell" onclick="colorpicker(1,1)">
+            <td class="cr1c1 cell" id="r1c1" onclick="colorpicker(1,1)">
 
             </td>
             <td class="cr1c2 cell">
@@ -42,9 +42,26 @@
         </tr>
     </table>
 
-    <div id="colorpicker">
-        
+    <div id="colorpicker" class="colorpicker" hidden="hidden">
+        <div class="cptopbar">
+            <p>Choose a color</p>
+            <button id="cpclosebtn" class="cpclosebtn" onclick="colorpicker(0,0)">X</button>
+        </div>
+        <div class="colors">
+            <div class="colorsrow1">
+                <button onclick="setcolor('red')">a</button>
+                <button>a</button>
+                <button>a</button>
+            </div>
+            <div class="colorsrow2">
+                <button>a</button>
+                <button>a</button>
+                <button>a</button>
+            </div>
+        </div>
     </div>
     
+    <script src="solve.js"></script>
+    <script src="colorpicker.js"></script>
 </body>
 </html>
